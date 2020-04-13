@@ -1,3 +1,5 @@
+CREATE DATABASE ApexRestaurantDB;
+USE ApexRestaurantDB;
 CREATE TABLE Customers(
 Id INT PRIMARY KEY IDENTITY(1,1),
 FirstName NVARCHAR(200),

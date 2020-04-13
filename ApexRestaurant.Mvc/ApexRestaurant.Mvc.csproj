@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <UserSecretsId>aspnet-ApexRestaurant.Mvc-B496C5C6-F947-404C-A75A-5FD73E801AD0</UserSecretsId>
+    <UserSecretsId>aspnet-ApexRestaurant.Mvc-15C98175-BB95-417D-9552-5281AF531014</UserSecretsId>
   </PropertyGroup>
 
 

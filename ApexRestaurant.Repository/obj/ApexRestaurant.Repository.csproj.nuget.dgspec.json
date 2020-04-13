@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Apex_Restaurant\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj": {}
+    "D:\\ApexRestaurant\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj": {}
   },
   "projects": {
-    "F:\\Apex_Restaurant\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj": {
+    "D:\\ApexRestaurant\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Apex_Restaurant\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj",
+        "projectUniqueName": "D:\\ApexRestaurant\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj",
         "projectName": "ApexRestaurant.Repository",
-        "projectPath": "F:\\Apex_Restaurant\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "F:\\Apex_Restaurant\\ApexRestaurant.Repository\\obj\\",
+        "projectPath": "D:\\ApexRestaurant\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj",
+        "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
+        "outputPath": "D:\\ApexRestaurant\\ApexRestaurant.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -36,13 +36,13 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.EntityFrameWorkCore": {
               "target": "Package",
-              "version": "[3.1.1, )"
+              "version": "[3.1.2, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.EntityFrameWorkCore.Sqlserver": {
               "target": "Package",
-              "version": "[3.1.1, )"
+              "version": "[3.1.2, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -65,7 +65,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

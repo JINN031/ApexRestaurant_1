@@ -1,0 +1,13 @@
+CREATE DATABASE ApexRestaurantDB;
+USE ApexRestaurantDB;
+CREATE TABLE Staff(
+Staff_Id INT PRIMARY KEY IDENTITY(1,1),
+Staff_Role_Code INT FOREIGN KEY REFERENCES Staff(Staff_Role_Code),
+FirstName NVARCHAR(200),
+LastName NVARCHAR(200),
+Other_Details NVARCHAR(200),
+CreatedBy NVARCHAR(200),
+CreatedOn DATETIME,
+UpdatedBy NVARCHAR(200),
+UpdatedOn DATETIME,
+);
